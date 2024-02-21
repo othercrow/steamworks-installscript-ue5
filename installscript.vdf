@@ -1,0 +1,12 @@
+"installscript"
+{
+	"Run Process"
+	{
+		"UEPrereqSetup"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\<YOUR APP ID HERE\\UEPrereqSetup"
+			"process 1"		"%INSTALLDIR%\\Engine\\Extras\\Redist\\en-us\\UEPrereqSetup_x64.exe"
+			"command 1"		"/silent"
+		}
+	}
+}
